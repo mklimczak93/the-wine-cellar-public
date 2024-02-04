@@ -4,7 +4,7 @@
 
  **Description**
 
-A virtual wine cellar application that allows user to store wine information & photos in their private online cellar, as well as search the web for best prices of chosen wine using custom wine finder tool (currently the base of the app is finished, the custom tool is a work in porgress).
+A virtual wine cellar application that allows user to store wine information & photos in their private online cellar, as well as search the web for best prices of chosen wine using custom wine finder tool (currently the base of the app is finished, the custom tool is a work in progress).
 The project was done with MERN stack, building frontend with React and backend with Node.js, Express.js and MongoDB database. 
 
 **Functionalities**
