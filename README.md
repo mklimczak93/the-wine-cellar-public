@@ -55,8 +55,11 @@ The project was done with MERN stack, building frontend with React and backend w
 09. Custom built "deal finder" - currently work in progress.
 
 ![10  Mobile 01](https://github.com/mklimczak93/the-wine-cellar-public/assets/123643355/df0d55d5-da13-4107-b9bc-de0c5b92667b)
+
 ![10  Mobile 02](https://github.com/mklimczak93/the-wine-cellar-public/assets/123643355/724b3ddd-f032-4cdf-a6d2-5606a1032937)
+
 ![10  Mobile 03](https://github.com/mklimczak93/the-wine-cellar-public/assets/123643355/42b63343-d857-4120-8237-356095a1abca)
+
 ![10  Mobile 04](https://github.com/mklimczak93/the-wine-cellar-public/assets/123643355/04573992-2194-41e1-8444-16c59bb14328)
 
 
