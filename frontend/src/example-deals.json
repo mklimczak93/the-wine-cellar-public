@@ -1,0 +1,41 @@
+{
+    "deals" : [
+        {
+            "id": 1,
+            "wineName": "Avesso Curvos Vinho Verde",
+            "wineStore": "wine.pl",
+            "wineLocation": "Online",
+            "wineStatus": "Yes",
+            "winePrice": 56,
+            "wineLink": "https://www.wine.pl"
+        },
+        {
+            "id": 2,
+            "wineName": "Curvos Vinho Verde",
+            "wineStore": "Kondrat Wina Wybrane",
+            "wineLocation": "Warsaw",
+            "wineStatus": "Yes",
+            "winePrice": 65.90,
+            "wineLink": "https://www.marekkondrat.pl/"
+        },
+        {
+            "id": 3,
+            "wineName": "Avesso Curvos Vinho Verde",
+            "wineStore": "dobrewina.pl",
+            "wineLocation": "Online",
+            "wineStatus": "No",
+            "winePrice": 54.90,
+            "wineLink": "https://www.dobrewina.pl"
+        },
+        {
+            "id": 4,
+            "wineName": "Avesso Vinho Verde",
+            "wineStore": "wino-sklep.pl",
+            "wineLocation": "Online",
+            "wineStatus": "Yes",
+            "winePrice": 59.95,
+            "wineLink": "https://www.wino-sklep.pl"
+        }
+    ]
+}
+        

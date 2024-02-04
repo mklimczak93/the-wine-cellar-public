@@ -1,0 +1,42 @@
+{
+    "cellar" : [
+        {
+            "id": 1,
+            "name": "Curvos",
+            "type": "white",
+            "sweatness": "dry",
+            "denomination": "Vinho Verde",
+            "grape": "Avesso",
+            "origin": "Portugal",
+            "year": 2021,
+            "notes": ["orchard-fruits", "pear", "plum"],
+            "pairing": ["white meat", "seafood", "cheese"]
+        },
+        {
+            "id": 2,
+            "name": "Prova Cega Reserva",
+            "type": "red",
+            "sweatness": "dry",
+            "denomination": "Duoro D.O.C.",
+            "grape": "Touriga Nacional, Touriga Franca, Tinta Roriz",
+            "origin": "Portugal",
+            "year": 2019,
+            "notes": ["red-fruits", "smoky", "vanilla"],
+            "pairing": ["red meat", "cheese"]
+        },
+        {
+            "id": 3,
+            "name": "Curvos Super Reserva",
+            "type": "sparkling white",
+            "sweatness": "dry",
+            "denomination": "Vinho Verde",
+            "grape": ["Avesso", "Arnito"],
+            "origin": "Portugal",
+            "year": 2015,
+            "notes": ["fruity", "complex body", "crispy edge"],
+            "pairing": ["aperitif", "baked goods"]
+        }
+
+    ]
+    
+}
