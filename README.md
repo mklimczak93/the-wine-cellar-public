@@ -65,7 +65,9 @@ The project was done with MERN stack, building frontend with React and backend w
 - dotenv.
 
 **How to run**
+
 Install dependencies and create .env file with PORT, MONGO_URI, SECRET variables.
+
 To run backend dev: 
 ```
 npm run dev
