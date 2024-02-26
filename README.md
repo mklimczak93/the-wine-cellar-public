@@ -23,9 +23,8 @@ The project was done with MERN stack, building frontend with React and backend w
 
 <img src="https://github.com/mklimczak93/mklimczak93/assets/123643355/135daf94-35eb-42ef-bfdc-98524d456c86" width="70%" height="auto"/>
 
-<img src="https://github.com/mklimczak93/mklimczak93/the-wine-cellar-public/assets/123643355/d1efc848-77c6-4c7b-a59c-00917f50cf3f" width="70%" height="auto"/>
+<img src="https://github.com/mklimczak93/the-wine-cellar-public/assets/123643355/998dc42f-78a7-465f-8127-9c74788df22a" width="70%" height="auto"/>
 
-![WineCellarMovie - finder](https://github.com/mklimczak93/the-wine-cellar-public/assets/123643355/998dc42f-78a7-465f-8127-9c74788df22a)
 
 
 **Project Screens**
