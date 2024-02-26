@@ -7,6 +7,7 @@ const express = require('express');
 const cellarRoutes = require('./routes/cellar.js');
 const userRoutes = require('./routes/user.js');
 const profileRoutes = require('./routes/userprofile.js');
+const dealsRoutes = require('./routes/deals.js');
 //mongoose library, cors, multer
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -31,6 +32,7 @@ app.use((req, res, next) => {
 app.use('/api/cellar/', cellarRoutes);
 app.use('/api/user/', userRoutes);
 app.use('/api/user/', profileRoutes);
+app.use('/api/deals/', dealsRoutes);
 
 //connecting to database
 mongoose.connect(process.env.MONGO_URI)

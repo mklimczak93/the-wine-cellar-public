@@ -1,0 +1,68 @@
+{
+    "websitesListData": [
+        {   
+            "id": 5,
+            "websiteURL": "https://sklep-z-winem.pl/",
+            "agreeSelector": "#index > div.remodal-wrapper.remodal-is-opened > div > button",
+            "additionalPopupSelector": "#accept-all-gdpr",
+            "additionalPopupSelector2": "",
+            "searchSelector": "#leo_search_query_top",
+            "searchButton": "#leo_search_top_button",
+            "pickFirst": "#js-product-list > div.products > div > div > div:first-child > article > div > div.product-meta > h3 > a[href]",
+            "nameSelector":"meta[property='og:title']",
+            "priceSelector": "meta[property='product:price:amount']",
+            "wineShop": "sklep-z-winem.pl"
+        },
+        {   
+            "id": 3,
+            "websiteURL": "https://wino-sklep.pl/",
+            "agreeSelector": "#index > div.remodal-wrapper.remodal-is-opened > div > div > div > button",
+            "additionalPopupSelector": "#accept-all-gdpr",
+            "additionalPopupSelector2": "",
+            "searchSelector": "#leo_search_query_top",
+            "searchButton": "#leo_search_top_button",
+            "pickFirst": "#js-product-list > div > div > div > div:nth-child(1) > article > div > div.product-meta > h3",
+            "nameSelector":"meta[property='og:title']",
+            "priceSelector": "meta[property='product:price:amount']",
+            "wineShop": "wino-sklep.pl"
+        },
+        {   
+            "id": 2,
+            "websiteURL": "https://winnicalidla.pl/",
+            "agreeSelector": "#onetrust-reject-all-handler",
+            "additionalPopupSelector": "#agepopup-regulations",
+            "additionalPopupSelector2": "#age-popup > div.content.age-verification > div.button-box > button.button.accept",
+            "searchSelector": "#search",
+            "searchButton": "#search_mini_form > div.actions > button",
+            "pickFirst": "#maincontent > div.columns > div.column.main > div > div.products.wrapper.grid.products-grid > ol > li:first-child > div > .product-item-top > a",
+            "nameSelector":"meta[property='og:title']",
+            "priceSelector": "meta[property='product:price:amount']",
+            "wineShop": "winnicalidla.pl"
+        },
+        {   
+            "id": 1,
+            "websiteURL": "https://www.marekkondrat.pl/",
+            "agreeSelector": "#close_popup_adult",
+            "additionalPopupSelector": "#popup_newsletter > div > div > div.modal-header > button",
+            "additionalPopupSelector2": "",
+            "searchSelector": "[type = search]",
+            "searchButton": "[name= searchButton]",
+            "pickFirst": ".single-search-result:first-child > div > .img > .qon-click-link",
+            "nameSelector":"meta[itemprop='name']",
+            "priceSelector": "meta[itemprop='price']",
+            "wineShop": "marekkondrat.pl"
+        },
+        {   
+            "id": 4,
+            "websiteURL": "https://dobrewino.pl/",
+            "agreeSelector": "#index > div.ageModal.popupfade.active > div > div > div > div.ageModalleftBox > div > div.jsx-2149158085.eaav-item-allow-buttons-container > button.kbyesnobutton.kbyesbutton",
+            "additionalPopupSelector": "",
+            "additionalPopupSelector2": "",
+            "searchSelector": "#_desktop_search > div > div > div.tvsearch-header-display-full > div > form > div.tvheader-top-search > div > input",
+            "searchButton": "#_desktop_search > div > div > div.tvsearch-header-display-full > div > form > div.tvheader-top-search-wrapper > button",
+            "pickFirst": "#js-product-list > div > div > article:nth-child(1) > div > div.tvproduct-wrapper.grid-2 > div.tvproduct-image > div.thumbnail.product-thumbnail.rc2.tst",
+            "nameSelector":"meta[property='og:title']",
+            "priceSelector": "meta[property='product:price:amount']",
+            "wineShop": "dobrewino.pl"
+        }
+]}

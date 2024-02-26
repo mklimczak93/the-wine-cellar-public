@@ -233,7 +233,7 @@ export default function EditProfilePage() {
                                 </input>
                             </div>
 
-                            <input type="submit" className="simple-button form-button"/>
+                            <input type="submit" className="simple-button form-button" />
                         </form>
                     </div>
                 </div>

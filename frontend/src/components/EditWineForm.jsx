@@ -201,6 +201,7 @@ export default function EditWineForm(props) {
                 <h5 className="form-subtitle">Name of the wine:</h5>
                 
                     <input 
+                        data-testid = "input-name-1"
                         placeholder= {wineName}
                         type="text" 
                         className={emptyFields?.includes('name') ? "error-input form-input" : "form-input"} 
@@ -215,6 +216,7 @@ export default function EditWineForm(props) {
 
                     <select 
                         id="select-type"
+                        data-testid = "selectWineType"
                         className={emptyFields?.includes('wineType') ? "error-input form-select" : "form-select"} 
                         onChange={(e) => setWineType(e.target.value)}>
                         <option value="">Choose type:</option>
@@ -289,7 +291,7 @@ export default function EditWineForm(props) {
                         <option value="vegetables">Vegetables</option>
                         <option value="white meat">White meat</option>
                         <option value="red meat">Red meat</option>
-                        <option value="seafood">Seafod</option>
+                        <option value="seafood">Seafood</option>
                         <option value="starches">Starches</option>
                         <option value="baked goods">Baked goods</option>
                     </select>
@@ -325,7 +327,7 @@ export default function EditWineForm(props) {
                     </div>
                 </div>
 
-                <input type="submit" className="simple-button form-button"/>
+                <input type="submit" className="simple-button form-button" data-testid="edit-wine-form-submit-button"/>
             </form>
         </div>
     )

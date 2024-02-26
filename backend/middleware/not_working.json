@@ -1,0 +1,16 @@
+{
+    "websitesListData": [
+        {   
+            "id": 3,
+            "websiteURL": "https://wina.pl/",
+            "agreeSelector": "[data-remodal-action=confirm]",
+            "additionalPopupSelector": ".lgcookieslaw-button lgcookieslaw-reject-button",
+            "additionalPopupSelector2": "#edrone-onsite-popup-content > div > div > div:nth-child(2) > div > svg",
+            "searchSelector": "#search_widget > form > input",
+            "searchButton": "#search_widget > form > button",
+            "pickFirst": "#js-product-list > div > div:first-child > article > div.img_block",
+            "nameSelector":"meta[itemprop='name']",
+            "priceSelector": "meta[itemprop='price']",
+            "wineShop": "wina.pl"
+        }
+]}

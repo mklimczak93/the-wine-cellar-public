@@ -60,6 +60,7 @@
   --error-color:                #a24219;
   --success-color:              #355b17;
   --disabled-color:             #C4C3CA;
+  --disabled-color2:            rgba(255,255,255, 0.3);
   --green:                      #969165;
 
   /* pages proportions */
@@ -460,11 +461,11 @@ button:hover .svg-icon-path {
     
   }
   .left-div {
-    width: 85svw;
+    width: 90svw;
     margin-bottom: 20px;
   }
   .right-div {
-    width: 85svw;
+    width: 90svw;
   }
 }
 /* ---------------------------------------------------- */
@@ -509,9 +510,9 @@ button:hover .svg-icon-path {
     align-items: center;
   }
   .home-page .right-div p {
-    width: 90%;
-    margin-left: 30px;
-    margin-top: 40px;
+    margin-left: 0px;
+    text-align: justify;
+    margin-top: 30px;
   }
   .home-page .left-div {
     width: 600px;
@@ -524,7 +525,7 @@ button:hover .svg-icon-path {
 /* Small devices (phones, 500px and down) */
 @media only screen and (max-width: 500px) {
   .home-page-photo, .main-title-logo, .home-page .right-div p {
-    width: 60svw;
+    width: 70svw;
   }
   .home-page .right-div p {
     margin-top: 0px;
@@ -852,7 +853,6 @@ button:hover .svg-icon-path {
   height: 95%;
   width: auto;
   transform: rotate(15deg);
-
 }
 
 /* rest of the styling in 'round-button' class*/
@@ -1332,9 +1332,14 @@ input[type="file"] {
 /* ---------------------------------------------- */
 .finder-wrapper {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 200px;
 }
 .finder-main-title {
-  font-size: var(--smaller-heading-size);
+  font-size: 5rem;
   align-self: flex-start;
   margin-bottom: 20px;
 }
@@ -1342,22 +1347,28 @@ input[type="file"] {
 /* --- finder chosen wine --- */
 .analyzed-wine-div {
   width: 100%;
-  background-color: rgba(255,255,255, 0.3);
-  border-radius: 15px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  background-color: rgba(255,255,255, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
   margin-bottom: 20px;
+  padding: 20px 0px;
+  border: 1px solid rgba(255,255,255, 0.3);
 }
-.finder-wine-photo {
-  height: 150px;
+.finder-photo-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   aspect-ratio: 1/1;
-  width: auto;
-  border-radius: 15px;
-  object-fit: cover;
-  margin-right: 30px;
+  height: 150px;
+  background-image: url('./assets/project-icons/circle01.svg');
+  background-repeat: no-repeat;
+  overflow: clip;
+  margin-left: 20px;
 }
-
+.finder-photo {
+  transform: rotate(0deg);
+}
 .wine-info-text-and-buttons-div {
   display: flex;
   align-items: center;
@@ -1365,15 +1376,7 @@ input[type="file"] {
   margin-right: 30px;
   width: 100%;
 }
-.finder-logo {
-  height: 120px;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  width: auto;
-  border-radius: 50%;
-  margin: 0px 30px;
-  background-color: rgba(255,255,255, 0.3);
-}
+
 .finder-wine-info {
   display: flex;
   flex-direction: column;
@@ -1396,16 +1399,31 @@ input[type="file"] {
   display: flex;
   height: 150px;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+}
+.finder-wine-details-buttons button{
+  border-radius: 0px;
+  margin: 10px 30px;
+}
+.finder-wine-details-buttons button svg {
+  margin-left: 10px;
 }
 
 /* --- finder table --- */
+.finder-subtitle {
+  font: var(--karla-text);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 16px;
+  align-self: flex-start;
+  margin: 30px 0px;
+}
 .finder-div {
   /* height: 70svh; */
   width: 100%;
-  background-color: rgba(255,255,255, 0.3);
-  border-radius: 15px;
+  background-color: rgba(255,255,255, 0.1);
   margin-bottom: 50px;
+  border: 1px solid rgba(255,255,255, 0.3);
 }
 /* removing last position border line */
 .finder-div .wine-deal:last-child {
@@ -1423,26 +1441,57 @@ input[type="file"] {
 }
 .wine-deal, .finder-titles {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
   justify-content: space-between;
   padding: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255,255,255, 0.3);
+  
 }
 .wine-deal > *, .finder-titles > * {
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: 2px;
 }
-.deal-p {
-  text-align: center;
+.not-found {
+  grid-template-columns: 1fr;
+  padding: 80px 0px;
+}
+
+.wine-deal-sub-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: flex-start;
+}
+#deal-name {
+  margin:0px;
+}
+
+#deal-store {
+  margin:0px;
+  margin-top: 10px;
+}
+
+#deal-number {
+  font-size: 64px;
 }
 .deal-a {
   width: 70px;
   height: 30px;
-  background-color: #A09275;
-  border-radius: 5px;
+  border: 1px solid white;
   text-decoration: none;
   color: var(--light-text-color);
+  padding: 5px 25px;
+}
+.disabled-link {
+  color: var(--disabled-color2);
+  border: 1px solid var(--disabled-color2);
+  pointer-events: none;
+  cursor: default;
+}
+.disabled-text {
+  color: var(--disabled-color2);
 }
 .small-icon {
   height: 20px;
@@ -1452,6 +1501,11 @@ input[type="file"] {
 .wine-deal a {
   align-self: center;
   justify-self: center;
+}
+.finder-title {
+  font: var(--karla-text);
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 /* Medium devices / tablets 770 - 1030 width*/
@@ -1467,9 +1521,15 @@ input[type="file"] {
 }
 /* Small devices (phones, 500px and down) */
 @media only screen and (max-width: 500px) {
+  .finder-main-title {
+    font-size: 4rem;
+  }
   .finder-wrapper {
     width: 80svw;
     margin: 0px 30px;
+  }
+  .finder-photo-div {
+    margin-left: 0px;
   }
   .finder-wine-qualities {
     display: none;
@@ -1478,21 +1538,26 @@ input[type="file"] {
     display: none;
   }
   .wine-deal, .finder-titles {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
   }
-  #deal-name {
+  .wine-deal> p:first-child, .wine-deal> p:nth-child(3), .finder-titles > p:first-child, .finder-titles > p:nth-child(3) {
     display: none;
   }
-  #deal-store {
-    text-align: start;
-    display:inline-block;
-    max-width: 70px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+  .deal-p {
+    font-size: 12px;
   }
-  .finder-title:first-child {
-    display: none;
+
+  .deal-a {
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .not-found {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
   }
 }
 /* -------------------------------------------------- */
@@ -1612,8 +1677,8 @@ input[type="file"] {
   border: 1px solid white;
   background-color: none;
   background: none;
-  color: white;
   font: var(--karla-text);
+  color: white;
   letter-spacing: 6px;
   text-transform: uppercase;
   padding: 18px;
